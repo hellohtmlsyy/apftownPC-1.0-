@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- ==========meta开始========== -->	
+<!-- 清空浏览器本地缓存 -->
+	<meta http-equiv="pragma" content="no-cache">
+	<meta http-equiv="cache-control" content="no-cache">
+	<meta http-equiv="expires" content="0">
+<!-- 本网页关键字和关键内容 -->
+	<meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+	<meta http-equiv="description" content="This is my page">
+<!-- 采用webkit内核(急速内核) -->
+	<meta name="renderer" content="webkit">
+<!-- 移动屏幕的缩放初始缩放比例1.0，不允许用户缩放，最小比例1.0，最大比例1.0 -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+<!-- 网站开启对web app的支持 -->
+	<meta name="apple-mobile-web-app-capable" content="yes">
+<!-- web app顶部状态条的颜色为灰色半透明 -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<!-- 忽略页面中的数值识别为电话号码 -->
+	<meta name="format-detection" content="telephone=no">
+<!-- web app设备添加到主屏幕后全屏显示 -->
+	<meta name="apple-touch-fullscreen" content="yes">
+<!-- uc浏览器强制全屏	 -->
+	<meta name="full-screen" content="yes">
+<!-- 以utf-8格式编码 -->
+	<meta charset="UTF-8">
+<!-- ==========meta结束========== -->
+	<link rel="stylesheet" href="../../css/base.css">
+	<link rel="stylesheet" href="../../css/swiper-3.3.1.min.css">
+	<link rel="stylesheet" href="../../css/mobile/mobile-apft.css">
+	<link rel="stylesheet" href="../../ctrl/font/css/font-awesome.min.css">
+	<title>输入密码——亚太金融（基金）小镇</title>
+</head>
+<body>
+	<div class="clear">
+	<!-- 生活 -->
+	<div class="full-w clear z-1">
+		<img class="full-w z-1" src="../../img/mobile/reg_f/facethesea.jpg" alt="">
+	</div>
+	<div class="full-w clear z-9 pd-10 pos-r pos-t-50l">
+		<div class="clear full-w  bg-white rectanyew">
+			<div class="clear">
+				<div class="col-3 pull-left pd-0 weqh">
+					<div class="full-wh pd-10">
+						<div class="f-22 full-wh text-center full-radius bg_00a0e6 clear heql col-white">
+							交通
+						</div>
+					</div>
+				</div>
+				<div class="col-9 pull-left pt-10 pb-10 weqh2"> 
+					<p class="line-h-15 f-12 col_333 weqh30">
+						小镇背靠青龙山、头枕青天河、面向铁路港、眺望海棠湾，附近是游艇母港，远处是高端酒店群，前有榆亚省际国道，后有海南高速，距高铁站十分钟路程。
+					</p>
+				</div>
+			</div>
+			<div class="clear">
+				<div class="col-3 pull-left pd-0 weqh">
+					<div class="full-wh pd-10">
+						<div class="f-22 full-wh text-center full-radius bg_5f52a0 clear heql col-white">
+							品质
+						</div>
+					</div>
+				</div>
+				<div class="col-9 pull-left pt-10 pb-10 weqh2"> 
+					<p class="line-h-15 f-12 col_333 weqh30">
+						小镇在镇上完善配套基础上，依靠海棠湾国际高端酒店群、301医院养生圈、人大附中教育带、CDF离岛免税店等系列配套设施，辅以卓越的物业、管理、从居住、医疗、教育等方面，形成完善的品质生活体系。
+					</p>
+				</div>
+			</div>
+			<div class="clear">
+				<div class="col-3 pull-left pd-0 weqh">
+					<div class="full-wh pd-10">
+						<div class="f-22 full-wh text-center full-radius bg_ea68a2 clear heql col-white">
+							生活
+						</div>
+					</div>
+				</div>
+				<div class="col-9 pull-left pt-10 pb-10 weqh2"> 
+					<p class="line-h-15 f-12 col_333 weqh30">
+						小镇拥有完善的运动设施，不仅有户外青龙山爬山步道，而且有室内健身全套器材，清晨爬上青龙山瞭望大海，傍晚游泳海棠湾欣赏天边落日，呼吸清洁的空气，给您一个健康的体魄。
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 生活END -->
+	<!-- 填写密码 -->
+	<div class="full-w clear f-16 pos-r pos-t-50l">
+		<div class="col-12 pull-left mt-10 mb-10">
+			<input class="ipt-text f_text text-center radius-10 size-large" type="text" placeholder="输入密码">
+		</div>
+		<div class="col-12 pull-left mt-10">
+			<button type="button" class="btn radius0 btn-primary full-w radius-10 size-large f-16">下一步</button>
+		</div>
+	</div>
+	<!-- 填写密码END -->
+	</div>
+<!-- jquery文件 -->
+	<script src="../../js/comm/jquery.min.js"></script>
+	<script src="../../js/comm/swiper-3.3.1.jquery.min.js"></script>
+<!-- base的js文件 -->
+	<script src="../../js/comm/mining.js"></script>
+	<script>
+		/*宽高相等文字居住*/
+		$(document).ready(function(){
+	      var heightle=$(".weqh").width();
+	      var lheightle=$(".heql").width();
+	      $(".weqh").css({height:heightle+'px'});
+	      $(".heql").css({'line-height':lheightle+'px'});
+	    });
+	</script>
+</body>
+</html>

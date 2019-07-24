@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- ==========meta开始========== -->	
+<!-- 清空浏览器本地缓存 -->
+	<meta http-equiv="pragma" content="no-cache">
+	<meta http-equiv="cache-control" content="no-cache">
+	<meta http-equiv="expires" content="0">
+<!-- 本网页关键字和关键内容 -->
+	<meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+	<meta http-equiv="description" content="This is my page">
+<!-- 采用webkit内核(急速内核) -->
+	<meta name="renderer" content="webkit">
+<!-- 移动屏幕的缩放初始缩放比例1.0，不允许用户缩放，最小比例1.0，最大比例1.0 -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+<!-- 网站开启对web app的支持 -->
+	<meta name="apple-mobile-web-app-capable" content="yes">
+<!-- web app顶部状态条的颜色为灰色半透明 -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<!-- 忽略页面中的数值识别为电话号码 -->
+	<meta name="format-detection" content="telephone=no">
+<!-- web app设备添加到主屏幕后全屏显示 -->
+	<meta name="apple-touch-fullscreen" content="yes">
+<!-- uc浏览器强制全屏	 -->
+	<meta name="full-screen" content="yes">
+<!-- 以utf-8格式编码 -->
+	<meta charset="UTF-8">
+<!-- ==========meta结束========== -->
+<!-- ==========link开始========== -->		
+<!-- 网页前面的小图标 -->
+	<link rel="icon" href="http://www.miningcircle.com/favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="http://www.miningcircle.com/favicon.ico" type="image/x-icon">
+<!-- 基本样式文件 -->
+	<link rel="stylesheet" href="../../../css/base.css">
+	<link rel="stylesheet" href="../../../css/swiper-3.3.1.min.css">
+	<link rel="stylesheet" href="../../../css/user.css">
+
+<!-- 字体样式文件 -->
+	<link rel="stylesheet" href="../../../ctrl/font/css/font-awesome.min.css">
+<!-- ==========link结束========== -->
+<!-- ==========script结束========== -->
+
+
+	<title>办公场所</title>
+</head>
+<body>
+
+	<div class="container pt-15 pb-15">
+		<form action="">
+			<!-- 办公地点 -->
+				<div class="col-6 pull-left pt-15  pr-0">
+					<div class="col-4 pull-left pr-0 pl-0 pt-5">
+						<label class="inline-block ipt-label">
+							<em class="col-red">*&nbsp;</em>
+							是否在三亚办公:
+						</label>
+					</div>
+					<div class="col-8 pull-left pl-5 pr-0 pt-12">
+						<label class="mr-20"><input name="inthetype" type="radio" value="" />是 </label> 
+						<label class="ml-20"><input name="inthetype" type="radio" value="" />否 </label>
+					</div>
+				</div>
+				<div class="col-6 pull-left pt-15 pl-0 s">
+					<div class="col-4 pull-left pl-0 pr-0 pt-5 pb-5s">
+						<label class="inline-block ipt-label">
+							<em class="col-red">*&nbsp;</em>
+							实际办公地点:
+						</label>
+					</div>
+					<div class="col-8 pull-left pd-0">
+						<input type="text" class="ipt-text" placeholder="">
+					</div>
+				</div>
+			<!-- 办公地点END -->
+			<!-- 办公面积 -->
+				<div class="col-12 pull-left pt-15">
+					<div class="col-2 pull-left pl-0 pr-0 pt-5">
+						<label class="inline-block ipt-label">
+							<em class="col-red">*&nbsp;</em>
+							办公面积:
+						</label>
+					</div>
+					<div class="col-7 pull-left pl-5 pr-0 pt-12">
+						<label class="mr-20"><input class="infse" name="infse" type="radio" value="" />10平方米</label>
+						<label class="mr-20"><input class="infse" name="infse" type="radio" value="" />30平方米</label> 
+						<label class="mr-20"><input class="infse" name="infse" type="radio" value="" />50平方米 </label>
+						<label class="mr-20"><input class="infse" name="infse" type="radio" value="" />100平方米 </label>
+						<label class="mr-20"><input class="infseo infse" name="infse" type="radio" value="" />其他 </label>
+					</div>
+					<div class="col-3 pull-left pl-5 pr-5">
+						<input type="text" class="ipt-text infsein dis-n" placeholder="">
+					</div>
+				</div>
+			<!-- 办公面积END -->
+			<!-- 说明 -->
+				<div class="col-12 pull-left pt-15">
+					<div class="col-2 pull-left pl-0 pr-0 pt-5">
+						<label class="inline-block ipt-label col-red">
+							&nbsp;&nbsp;&nbsp;温馨提示:
+						</label>
+					</div>
+					<div class="col-10 pull-left pl-5 pr-10 pt-12 f-14 line-h-20">
+						10平方米为开放办公，具有一个工位的最小办公面积，30平方米为联合办公， 拥有两个工位的隔断空间，50及100平方米享有完全独立办公室。
+					</div>
+				</div>
+			<!-- 说明END -->
+			<!-- 提交重置 -->
+				<div class="col-12 pull-left pt-20">
+					<div class="col-6 pull-left pd-0 text-center">
+						<button class="btn btn-small dis-ib btn-primary" >提交</button>
+					</div>
+					<div class="col-6 pull-left pd-0 text-center">
+						<button class="btn btn-small dis-ib btn-primary" >重置</button>
+					</div>
+				</div>
+			<!-- 提交重置END -->
+		</form>
+	</div>
+
+
+<!-- jquery文件 -->
+	<script src="../../../js/comm/jquery.min.js"></script>
+	<script src="../../../js/comm/swiper-3.3.1.jquery.min.js"></script>
+	<script src="../../../ctrl/layer/layer.js"></script>
+<!-- base的js文件 -->
+	<script src="../../../js/comm/mining.js"></script>
+	<script src="../../../js/comm/user.js"></script>
+	<script>
+		$(document).ready(function(){
+		    $(".infse").click(function(){
+		  	  var s=$(".infseo:checked").val();
+		  	   if(s==""){
+	                $(".infsein").show();
+	            }
+	            else{
+	               $(".infsein").hide();
+	            }
+		  });
+
+		});
+
+
+	</script>
+</body>
+</html>

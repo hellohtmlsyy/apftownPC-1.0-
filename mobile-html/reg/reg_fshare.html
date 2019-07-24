@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- ==========meta开始========== -->	
+<!-- 清空浏览器本地缓存 -->
+	<meta http-equiv="pragma" content="no-cache">
+	<meta http-equiv="cache-control" content="no-cache">
+	<meta http-equiv="expires" content="0">
+<!-- 本网页关键字和关键内容 -->
+	<meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+	<meta http-equiv="description" content="This is my page">
+<!-- 采用webkit内核(急速内核) -->
+	<meta name="renderer" content="webkit">
+<!-- 移动屏幕的缩放初始缩放比例1.0，不允许用户缩放，最小比例1.0，最大比例1.0 -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+<!-- 网站开启对web app的支持 -->
+	<meta name="apple-mobile-web-app-capable" content="yes">
+<!-- web app顶部状态条的颜色为灰色半透明 -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<!-- 忽略页面中的数值识别为电话号码 -->
+	<meta name="format-detection" content="telephone=no">
+<!-- web app设备添加到主屏幕后全屏显示 -->
+	<meta name="apple-touch-fullscreen" content="yes">
+<!-- uc浏览器强制全屏	 -->
+	<meta name="full-screen" content="yes">
+<!-- 以utf-8格式编码 -->
+	<meta charset="UTF-8">
+<!-- ==========meta结束========== -->
+	<link rel="stylesheet" href="../../css/base.css">
+	<link rel="stylesheet" href="../../css/swiper-3.3.1.min.css">
+	<link rel="stylesheet" href="../../css/mobile/mobile-apft.css">
+	<link rel="stylesheet" href="../../ctrl/font/css/font-awesome.min.css">
+	<title>联系我们——亚太金融（基金）小镇</title>
+</head>
+<body class="bg-l-blue">
+	<div class="wrap clear">
+	<!-- 联系我们 -->
+	<div class="clear full-w bg_eaf8ff bor-b-434343">
+		<p class="text-center pt-15 pb-15 f-26 col_00a5f7">
+			<img class="dis-ib pos-r pos-t-2l img-30 bg_00a0e6 radius-5 pd-5 mr-10" src="../../img/mobile/reg_f/share_tips1.png" alt="">联系我们
+		</p>
+	</div>
+	<!-- 联系我们END -->
+	<!-- 小镇地图和分享 -->
+		<div class="clear text-center mt-10 mb-10">
+			<iframe width="304" height="265" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://j.map.baidu.com/GYRxI"></iframe>
+		</div>
+		<p class="f-16 text-center mt-10 mb-10 col_00a5f7 line-h-20">
+			小镇地址
+		</p>
+		<div class="clear">
+			<div class="col-6 clear pull-left mt-10 mb-10">
+				<img src="../../img/mobile/reg_f/yataiqr.jpg" alt="">
+			</div>
+			<div class="col-6 clear pull-left mt-10 mb-10">
+				<img src="../../img/mobile/reg_f/yataifp.jpg" alt="">
+			</div>
+		</div>
+		<p class="text-center pt-15 col_00a5f7 f-14">
+			分享三家公司，并成功加盟
+		</p>
+		<p class="text-center pt-10 pb-10 f-w col_00a5f7 f-24">
+			即可享受XXXX服务
+		</p>
+		<!-- 小镇地图END -->
+	</div>
+	<div class="clear bg_a8e2ff pt-20 pb-20 footer">
+		<p class="f-14 mt-5 mb-10 pl-15 pr-15 line-h-15">
+			<span class="f-w">联系电话：</span><a class="hov-pri" href="tel:400-0881124">400-0881124</a>
+		</p>
+		<p class="f-14 mt-5 mb-10 pl-15 pr-15 line-h-15">
+			<span class="f-w">邮箱：</span><a href="mailto:info@apftown.com">info@apftown.com</a>
+		</p>
+		<p class="f-14 mt-5 mb-10 pl-15 pr-15 line-h-15">
+			<span class="f-w">地址：</span>海南省三亚市海棠湾亚太金融（基金）小镇
+		</p>
+	</div>
+<!-- jquery文件 -->
+	<script src="../../js/comm/jquery.min.js"></script>
+	<script src="../../js/comm/swiper-3.3.1.jquery.min.js"></script>
+<!-- base的js文件 -->
+	<script src="../../js/comm/mining.js"></script>
+	<script>
+		$(document).ready(function(){
+		    $(".infse").click(function(){
+		  	  var s=$(".infseo:checked").val();
+		  	   if(s==""){
+	                $(".infsein").show();
+	            }
+	            else{
+	               $(".infsein").hide();
+	            }
+		  });
+
+		});
+	</script>
+</body>
+</html>

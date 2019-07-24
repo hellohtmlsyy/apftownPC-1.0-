@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- ==========meta开始========== -->	
+<!-- 清空浏览器本地缓存 -->
+	<meta http-equiv="pragma" content="no-cache">
+	<meta http-equiv="cache-control" content="no-cache">
+	<meta http-equiv="expires" content="0">
+<!-- 本网页关键字和关键内容 -->
+	<meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+	<meta http-equiv="description" content="This is my page">
+<!-- 采用webkit内核(急速内核) -->
+	<meta name="renderer" content="webkit">
+<!-- 移动屏幕的缩放初始缩放比例1.0，不允许用户缩放，最小比例1.0，最大比例1.0 -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+<!-- 网站开启对web app的支持 -->
+	<meta name="apple-mobile-web-app-capable" content="yes">
+<!-- web app顶部状态条的颜色为灰色半透明 -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<!-- 忽略页面中的数值识别为电话号码 -->
+	<meta name="format-detection" content="telephone=no">
+<!-- web app设备添加到主屏幕后全屏显示 -->
+	<meta name="apple-touch-fullscreen" content="yes">
+<!-- uc浏览器强制全屏	 -->
+	<meta name="full-screen" content="yes">
+<!-- 以utf-8格式编码 -->
+	<meta charset="UTF-8">
+<!-- ==========meta结束========== -->
+<!-- ==========link开始========== -->		
+<!-- 网页前面的小图标 -->
+	<link rel="icon" href="http://www.miningcircle.com/favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="http://www.miningcircle.com/favicon.ico" type="image/x-icon">
+<!-- 基本样式文件 -->
+	<link rel="stylesheet" href="../../../css/base.css">
+	<link rel="stylesheet" href="../../../css/swiper-3.3.1.min.css">
+	<link rel="stylesheet" href="../../../css/user.css">
+
+<!-- 字体样式文件 -->
+	<link rel="stylesheet" href="../../../ctrl/font/css/font-awesome.min.css">
+<!-- ==========link结束========== -->
+<!-- ==========script结束========== -->
+
+
+	<title>实际控制人简介</title>
+</head>
+<body>
+
+	<div class="container pt-15 pb-15">
+		<form action="">
+			<!-- 姓名出生日期 -->
+				<div class="col-6 pull-left pt-15">
+					<div class="col-4 pull-left pl-0 pr-0 pt-5 pb-5">
+						<label class="inline-block ipt-label">
+							<em class="col-red">*&nbsp;</em>
+							姓名:
+						</label>
+					</div>
+					<div class="col-8 pull-left pd-0">
+						<input type="text" class="ipt-text" placeholder="">
+					</div>
+				</div>
+				<div class="col-6 pull-left pt-15">
+					<div class="col-4 pull-left pl-0 pr-0 pt-5 pb-5">
+						<label class="inline-block ipt-label">
+							<em class="col-red">*&nbsp;</em>
+							出生日期:
+						</label>
+					</div>
+					<div class="col-8 pull-left pd-0">
+						<input class="ipt-text" type="month" value="1990-01"/>
+					</div>
+				</div>
+			<!-- 姓名出生日期END -->
+			<!-- 性别籍贯 -->
+				<div class="col-6 pull-left pt-15">
+					<div class="col-4 pull-left pl-0 pr-0 pt-5 pb-5">
+						<label class="inline-block ipt-label">
+							<em class="col-red">*&nbsp;</em>
+							性别:
+						</label>
+					</div>
+					<div class="col-8 pull-left pl-0 pr-0 pt-12">
+						<div class="col-6 pull-left clear text-center">
+							<label class="mr-20"><input name="sex" type="radio" value="" />男 </label>
+						</div>
+						<div class="col-6 pull-left clear text-center">
+							<label class="ml-20"><input name="sex" type="radio" value="" />女 </label>
+						</div>
+					</div>
+				</div>
+				<div class="col-6 pull-left pt-15">
+					<div class="col-4 pull-left pl-0 pr-0 pt-5 pb-5">
+						<label class="inline-block ipt-label">
+							<em class="col-red">*&nbsp;</em>
+							籍贯:
+						</label>
+					</div>
+					<div class="col-8 pull-left pd-0">
+						<input type="text" class="ipt-text" placeholder="">
+					</div>
+				</div>
+			<!-- 性别籍贯END -->
+			<!-- 身份证号居住地 -->
+				<div class="col-6 pull-left pt-15">
+					<div class="col-4 pull-left pl-0 pr-0 pt-5 pb-5">
+						<label class="inline-block ipt-label">
+							<em class="col-red">*&nbsp;</em>
+							身份证号:
+						</label>
+					</div>
+					<div class="col-8 pull-left pd-0">
+						<input type="text" class="ipt-text" placeholder="">
+					</div>
+				</div>
+				<div class="col-6 pull-left pt-15">
+					<div class="col-4 pull-left pl-0 pr-0 pt-5 pb-5">
+						<label class="inline-block ipt-label">
+							<em class="col-red">*&nbsp;</em>
+							居住地:
+						</label>
+					</div>
+					<div class="col-8 pull-left pd-0">
+						<input type="text" class="ipt-text" placeholder="">
+					</div>
+				</div>
+			<!-- 身份证号居住地END -->
+			<!-- 手机电邮 -->
+				<div class="col-6 pull-left pt-15">
+					<div class="col-4 pull-left pl-0 pr-0 pt-5 pb-5">
+						<label class="inline-block ipt-label">
+							<em class="col-red">*&nbsp;</em>
+							手机:
+						</label>
+					</div>
+					<div class="col-8 pull-left pd-0">
+						<input type="text" class="ipt-text" placeholder="">
+					</div>
+				</div>
+				<div class="col-6 pull-left pt-15">
+					<div class="col-4 pull-left pl-0 pr-0 pt-5 pb-5">
+						<label class="inline-block ipt-label">
+							<em class="col-red">*&nbsp;</em>
+							电邮:
+						</label>
+					</div>
+					<div class="col-8 pull-left pd-0">
+						<input type="text" class="ipt-text" placeholder="">
+					</div>
+				</div>
+			<!-- 手机电邮END -->
+			<!-- 联系地址邮编 -->
+				<div class="col-6 pull-left pt-15">
+					<div class="col-4 pull-left pl-0 pr-0 pt-5 pb-5">
+						<label class="inline-block ipt-label">
+							<em class="col-red">*&nbsp;</em>
+							联系地址:
+						</label>
+					</div>
+					<div class="col-8 pull-left pd-0">
+						<input type="text" class="ipt-text" placeholder="">
+					</div>
+				</div>
+				<div class="col-6 pull-left pt-15">
+					<div class="col-4 pull-left pl-0 pr-0 pt-5 pb-5">
+						<label class="inline-block ipt-label">
+							<em class="col-red">*&nbsp;</em>
+							邮编:
+						</label>
+					</div>
+					<div class="col-8 pull-left pd-0">
+						<input type="text" class="ipt-text" placeholder="">
+					</div>
+				</div>
+			<!-- 联系地址邮编END -->
+			<!-- 现任工作职务 -->
+				<div class="col-6 pull-left pt-15">
+					<div class="col-4 pull-left pl-0 pr-0 pt-5 pb-5">
+						<label class="inline-block ipt-label">
+							<em class="col-red">*&nbsp;</em>
+							现任工作:
+						</label>
+					</div>
+					<div class="col-8 pull-left pd-0">
+						<input type="text" class="ipt-text" placeholder="">
+					</div>
+				</div>
+				<div class="col-6 pull-left pt-15">
+					<div class="col-4 pull-left pl-0 pr-0 pt-5 pb-5">
+						<label class="inline-block ipt-label">
+							<em class="col-red">*&nbsp;</em>
+							职务:
+						</label>
+					</div>
+					<div class="col-8 pull-left pd-0">
+						<input type="text" class="ipt-text" placeholder="">
+					</div>
+				</div>
+			<!-- 现任工作职务END -->
+			<!-- 学历 -->
+				<div class="col-12 pull-left pt-15">
+					<div class="col-2 pull-left pl-0 pr-0 pt-5 pb-5">
+						<label class="inline-block ipt-label">
+							<em class="col-red">*&nbsp;</em>
+							现任工作:
+						</label>
+					</div>
+					<div class="col-10 pull-left pl-0 pr-0 pt-12 text-center">
+						<label class="ml-20 mr-20"><input name="edub" type="radio" value="" />博士 </label>
+						<label class="ml-20 mr-20"><input name="edub" type="radio" value="" />硕士 </label>
+						<label class="ml-20 mr-20"><input name="edub" type="radio" value="" />本科 </label>
+						<label class="ml-20 mr-20"><input name="edub" type="radio" value="" />大专 </label>
+						<label class="ml-20 mr-20"><input name="edub" type="radio" value="" />中专 </label>
+						<label class="ml-20 mr-20"><input name="edub" type="radio" value="" />中专以下 </label>
+					</div>
+				</div>
+			<!-- 学历END -->
+			<!-- 教育背景 -->
+				<div class="col-12 pull-left pt-15">
+					<div class="col-2 pull-left pl-0 pr-0 pt-5 pb-5">
+						<label class="inline-block ipt-label">
+							<em class="col-red">*&nbsp;</em>
+							教育背景（最后三个）:
+						</label>
+					</div>
+					<!-- 一 -->
+					<div class="col-10 pull-left pd-5 bor-primary bg-l-green2">
+						<div class="col-6 pull-left pd-0">
+							<div class="col-3 pull-left pl-0 pr-0 pt-5 ">
+								<label class="inline-block ipt-label">
+									<em class="col-red">*&nbsp;</em>
+									时间:
+								</label>
+							</div>
+							<div class="col-9 pull-left pd-0">
+								<input class="ipt-text" type="month" value="1990-01"/>
+							</div>
+						</div>
+						<div class="col-6 pull-left pd-0">
+							<div class="col-3 pull-left pd-0 text-center f-18 line-h-32 h-34">
+								~
+							</div>
+							<div class="col-9 pull-left pd-0">
+								<input class="ipt-text" type="month" value="1990-01"/>
+							</div>
+						</div>
+
+						<div class="col-6 pull-left pl-0 pr-0 pt-15">
+							<div class="col-3 pull-left pl-0 pr-0 pt-5 pb-5">
+								<label class="inline-block ipt-label">
+									<em class="col-red">*&nbsp;</em>
+									学校:
+								</label>
+							</div>
+							<div class="col-9 pull-left pd-0">
+								<input type="text" class="ipt-text" placeholder="">
+							</div>
+						</div>
+						<div class="col-6 pull-left pl-0 pr-0 pt-15">
+							<div class="col-3 pull-left pl-0 pr-0 pt-5 pb-5">
+								<label class="inline-block ipt-label">
+									<em class="col-red">*&nbsp;</em>
+									专业:
+								</label>
+							</div>
+							<div class="col-9 pull-left pd-0">
+								<input type="text" class="ipt-text" placeholder="">
+							</div>
+						</div>
+					</div>
+					<!-- 二 -->
+					<div class="col-10 pull-left pl-5 pr-5 pb-0 mt-20 col-offset-2 bor-primary bg-l-green2">
+						<div class="col-6 pull-left pd-0">
+							<div class="col-3 pull-left pl-0 pr-0 pt-5 ">
+								<label class="inline-block ipt-label">
+									<em class="col-red">*&nbsp;</em>
+									时间:
+								</label>
+							</div>
+							<div class="col-9 pull-left pd-0">
+								<input class="ipt-text" type="month" value="1990-01"/>
+							</div>
+						</div>
+						<div class="col-6 pull-left pd-0">
+							<div class="col-3 pull-left pd-0 text-center f-18 line-h-32 h-34">
+								~
+							</div>
+							<div class="col-9 pull-left pd-0">
+								<input class="ipt-text" type="month" value="1990-01"/>
+							</div>
+						</div>
+
+						<div class="col-6 pull-left pl-0 pr-0 pt-15">
+							<div class="col-3 pull-left pl-0 pr-0 pt-5 pb-5">
+								<label class="inline-block ipt-label">
+									<em class="col-red">*&nbsp;</em>
+									学校:
+								</label>
+							</div>
+							<div class="col-9 pull-left pd-0">
+								<input type="text" class="ipt-text" placeholder="">
+							</div>
+						</div>
+						<div class="col-6 pull-left pl-0 pr-0 pt-15">
+							<div class="col-3 pull-left pl-0 pr-0 pt-5 pb-5">
+								<label class="inline-block ipt-label">
+									<em class="col-red">*&nbsp;</em>
+									专业:
+								</label>
+							</div>
+							<div class="col-9 pull-left pd-0">
+								<input type="text" class="ipt-text" placeholder="">
+							</div>
+						</div>
+					</div>
+					<!-- 三 -->
+					<div class="col-10 pull-left pl-5 pr-5 pb-0 mt-20 col-offset-2 bor-primary bg-l-green2">
+						<div class="col-6 pull-left pd-0">
+							<div class="col-3 pull-left pl-0 pr-0 pt-5 ">
+								<label class="inline-block ipt-label">
+									<em class="col-red">*&nbsp;</em>
+									时间:
+								</label>
+							</div>
+							<div class="col-9 pull-left pd-0">
+								<input class="ipt-text" type="month" value="1990-01"/>
+							</div>
+						</div>
+						<div class="col-6 pull-left pd-0">
+							<div class="col-3 pull-left pd-0 text-center f-18 line-h-32 h-34">
+								~
+							</div>
+							<div class="col-9 pull-left pd-0">
+								<input class="ipt-text" type="month" value="1990-01"/>
+							</div>
+						</div>
+
+						<div class="col-6 pull-left pl-0 pr-0 pt-15">
+							<div class="col-3 pull-left pl-0 pr-0 pt-5 pb-5">
+								<label class="inline-block ipt-label">
+									<em class="col-red">*&nbsp;</em>
+									学校:
+								</label>
+							</div>
+							<div class="col-9 pull-left pd-0">
+								<input type="text" class="ipt-text" placeholder="">
+							</div>
+						</div>
+						<div class="col-6 pull-left pl-0 pr-0 pt-15">
+							<div class="col-3 pull-left pl-0 pr-0 pt-5 pb-5">
+								<label class="inline-block ipt-label">
+									<em class="col-red">*&nbsp;</em>
+									专业:
+								</label>
+							</div>
+							<div class="col-9 pull-left pd-0">
+								<input type="text" class="ipt-text" placeholder="">
+							</div>
+						</div>
+					</div>
+				</div>
+			<!-- 教育背景END -->
+			<!-- 工作简历 -->
+				<div class="col-12 pull-left pt-15">
+					<div class="col-2 pull-left pl-0 pr-0 pt-5 pb-5">
+						<label class="inline-block ipt-label">
+							<em class="col-red">*&nbsp;</em>
+							工作简历（最后三个）:
+						</label>
+					</div>
+					<!-- 一 -->
+					<div class="col-10 pull-left pd-5 bor-primary bg-l-green2">
+						<div class="col-6 pull-left pd-0">
+							<div class="col-3 pull-left pl-0 pr-0 pt-5 ">
+								<label class="inline-block ipt-label">
+									<em class="col-red">*&nbsp;</em>
+									时间:
+								</label>
+							</div>
+							<div class="col-9 pull-left pd-0">
+								<input class="ipt-text" type="month" value="1990-01"/>
+							</div>
+						</div>
+						<div class="col-6 pull-left pd-0">
+							<div class="col-3 pull-left pd-0 text-center f-18 line-h-32 h-34">
+								~
+							</div>
+							<div class="col-9 pull-left pd-0">
+								<input class="ipt-text" type="month" value="1990-01"/>
+							</div>
+						</div>
+
+						<div class="col-6 pull-left pl-0 pr-0 pt-15">
+							<div class="col-3 pull-left pl-0 pr-0 pt-5 pb-5">
+								<label class="inline-block ipt-label">
+									<em class="col-red">*&nbsp;</em>
+									单位:
+								</label>
+							</div>
+							<div class="col-9 pull-left pd-0">
+								<input type="text" class="ipt-text" placeholder="">
+							</div>
+						</div>
+						<div class="col-6 pull-left pl-0 pr-0 pt-15">
+							<div class="col-3 pull-left pl-0 pr-0 pt-5 pb-5">
+								<label class="inline-block ipt-label">
+									<em class="col-red">*&nbsp;</em>
+									职务:
+								</label>
+							</div>
+							<div class="col-9 pull-left pd-0">
+								<input type="text" class="ipt-text" placeholder="">
+							</div>
+						</div>
+					</div>
+					<!-- 二 -->
+					<div class="col-10 pull-left pl-5 pr-5 pb-0 mt-20 col-offset-2 bor-primary bg-l-green2">
+						<div class="col-6 pull-left pd-0">
+							<div class="col-3 pull-left pl-0 pr-0 pt-5 ">
+								<label class="inline-block ipt-label">
+									<em class="col-red">*&nbsp;</em>
+									时间:
+								</label>
+							</div>
+							<div class="col-9 pull-left pd-0">
+								<input class="ipt-text" type="month" value="1990-01"/>
+							</div>
+						</div>
+						<div class="col-6 pull-left pd-0">
+							<div class="col-3 pull-left pd-0 text-center f-18 line-h-32 h-34">
+								~
+							</div>
+							<div class="col-9 pull-left pd-0">
+								<input class="ipt-text" type="month" value="1990-01"/>
+							</div>
+						</div>
+
+						<div class="col-6 pull-left pl-0 pr-0 pt-15">
+							<div class="col-3 pull-left pl-0 pr-0 pt-5 pb-5">
+								<label class="inline-block ipt-label">
+									<em class="col-red">*&nbsp;</em>
+									单位:
+								</label>
+							</div>
+							<div class="col-9 pull-left pd-0">
+								<input type="text" class="ipt-text" placeholder="">
+							</div>
+						</div>
+						<div class="col-6 pull-left pl-0 pr-0 pt-15">
+							<div class="col-3 pull-left pl-0 pr-0 pt-5 pb-5">
+								<label class="inline-block ipt-label">
+									<em class="col-red">*&nbsp;</em>
+									职务:
+								</label>
+							</div>
+							<div class="col-9 pull-left pd-0">
+								<input type="text" class="ipt-text" placeholder="">
+							</div>
+						</div>
+					</div>
+					<!-- 三 -->
+					<div class="col-10 pull-left pl-5 pr-5 pb-0 mt-20 col-offset-2 bor-primary bg-l-green2">
+						<div class="col-6 pull-left pd-0">
+							<div class="col-3 pull-left pl-0 pr-0 pt-5 ">
+								<label class="inline-block ipt-label">
+									<em class="col-red">*&nbsp;</em>
+									时间:
+								</label>
+							</div>
+							<div class="col-9 pull-left pd-0">
+								<input class="ipt-text" type="month" value="1990-01"/>
+							</div>
+						</div>
+						<div class="col-6 pull-left pd-0">
+							<div class="col-3 pull-left pd-0 text-center f-18 line-h-32 h-34">
+								~
+							</div>
+							<div class="col-9 pull-left pd-0">
+								<input class="ipt-text" type="month" value="1990-01"/>
+							</div>
+						</div>
+
+						<div class="col-6 pull-left pl-0 pr-0 pt-15">
+							<div class="col-3 pull-left pl-0 pr-0 pt-5 pb-5">
+								<label class="inline-block ipt-label">
+									<em class="col-red">*&nbsp;</em>
+									单位:
+								</label>
+							</div>
+							<div class="col-9 pull-left pd-0">
+								<input type="text" class="ipt-text" placeholder="">
+							</div>
+						</div>
+						<div class="col-6 pull-left pl-0 pr-0 pt-15">
+							<div class="col-3 pull-left pl-0 pr-0 pt-5 pb-5">
+								<label class="inline-block ipt-label">
+									<em class="col-red">*&nbsp;</em>
+									职务:
+								</label>
+							</div>
+							<div class="col-9 pull-left pd-0">
+								<input type="text" class="ipt-text" placeholder="">
+							</div>
+						</div>
+					</div>
+				</div>
+			<!-- 工作简历END -->
+			<!-- 曾发起公司名称 -->
+				<div class="col-12 pull-left pt-15">
+					<div class="col-2 pull-left pl-0 pr-0 pt-5 pb-5">
+						<label class="inline-block ipt-label">
+							<em class="col-red">*&nbsp;</em>
+							曾发起公司名称:
+						</label>
+					</div>
+					<div class="col-10 pull-left pd-0">
+						<input type="text" class="ipt-text" placeholder="">
+					</div>
+				</div>
+			<!-- 曾发起公司名称END -->
+			<!-- 个人简介 -->
+				<div class="col-12 pull-left pt-15">
+					<div class="col-2 pull-left pl-0 pr-0 pt-5 pb-5">
+						<label class="inline-block ipt-label">
+							<em class="col-red">*&nbsp;</em>
+							个人简介:
+						</label>
+					</div>
+					<div class="col-10 pull-left pd-0">
+						<textarea rows="3" cols="20" class="ipt-text h-100"></textarea>
+					</div>
+				</div>
+			<!-- 个人简介END -->
+			<!-- 基金从业资格 -->
+				<div class="col-12 pull-left pt-15">
+					<div class="col-2 pull-left pl-0 pr-0 pt-5 pb-5 line-h-20">
+						<label class="inline-block ipt-label">
+							<em class="col-red">*&nbsp;</em>
+							是否具备基金从业资格，请说明:
+						</label>
+					</div>
+					<!-- 一 -->
+					<div class="col-10 pull-left pd-5 bor-primary bg-l-green2">
+						<div class="col-6 pull-left pd-0">
+							<div class="col-4 pull-left pl-0 pr-0 pt-5 ">
+								<label class="inline-block ipt-label">
+									<em class="col-red">*&nbsp;</em>
+									考试名称一:
+								</label>
+							</div>
+							<div class="col-8 pull-left pd-0">
+								<input type="text" class="ipt-text" placeholder="">
+							</div>
+						</div>
+						<div class="col-6 pull-left pd-0">
+							<div class="col-4 pull-left  pl-0 pr-0 pt-5">
+								<label class="inline-block ipt-label">
+									<em class="col-red">*&nbsp;</em>
+									编号:
+								</label>
+							</div>
+							<div class="col-8 pull-left pd-0">
+								<input type="text" class="ipt-text" placeholder="">
+							</div>
+						</div>
+					</div>
+					<!-- 二 -->
+					<div class="col-10 pull-left pd-5 bor-primary bg-l-green2">
+						<div class="col-6 pull-left pd-0">
+							<div class="col-4 pull-left pl-0 pr-0 pt-5 ">
+								<label class="inline-block ipt-label">
+									<em class="col-red">*&nbsp;</em>
+									考试名称二:
+								</label>
+							</div>
+							<div class="col-8 pull-left pd-0">
+								<input type="text" class="ipt-text" placeholder="">
+							</div>
+						</div>
+						<div class="col-6 pull-left pd-0">
+							<div class="col-4 pull-left  pl-0 pr-0 pt-5">
+								<label class="inline-block ipt-label">
+									<em class="col-red">*&nbsp;</em>
+									编号:
+								</label>
+							</div>
+							<div class="col-8 pull-left pd-0">
+								<input type="text" class="ipt-text" placeholder="">
+							</div>
+						</div>
+					</div>
+				</div>
+			<!-- 基金从业资格END -->
+			<!-- 金融经验描述 -->
+				<div class="col-12 pull-left pt-15">
+					<div class="col-2 pull-left pl-0 pr-0 pt-5 pb-5">
+						<label class="inline-block ipt-label">
+							<em class="col-red">*&nbsp;</em>
+							金融经验描述:
+						</label>
+					</div>
+					<div class="col-10 pull-left pd-0">
+						<textarea rows="3" cols="20" class="ipt-text h-100"></textarea>
+					</div>
+				</div>
+			<!-- 金融经验描述END -->
+			<!-- 存在其他情况 -->
+				<div class="pull-left full-w clear bor-primary mb-10 mt-10">
+					<p class="text-center f-16 pt-10 pb-10">是否存在以下情况</p>
+					<p class=" f-14 pt-10 pb-10">1.是否曾受到行业协会的纪律处分，如有，请说明情况:</p>
+					<input type="text" class="ipt-text" placeholder="">
+					<p class=" f-14 pt-10 pb-10">2.是否存在违法或失信行为，如有，请说明情况：</p>
+					<input type="text" class="ipt-text" placeholder="">
+					<p class=" f-14 pt-10 pb-10">3.是否负有重大到期债务，如有，请说明情况：</p>
+					<input type="text" class="ipt-text" placeholder="">
+					<p class=" f-14 pt-10 pb-10">4.是否存在尚未了结或可预见的诉讼、仲裁案件或行政处罚，如有，请说明情况：</p>
+					<input type="text" class="ipt-text" placeholder="">
+					<p class=" f-14 pt-10 pb-10">5.是否存在《公司法》第一百四十六条规定不得担任高级管理人员情形，如有请说明：</p>
+					<input type="text" class="ipt-text" placeholder="">
+				</div>
+			<!-- 存在其他情况END -->
+			<!-- 提交重置 -->
+				<div class="col-12 pull-left pt-20 mb-20">
+					<div class="col-6 pull-left pd-0 text-center">
+						<button class="btn btn-small dis-ib btn-primary" >提交</button>
+					</div>
+					<div class="col-6 pull-left pd-0 text-center">
+						<button class="btn btn-small dis-ib btn-primary" >重置</button>
+					</div>
+				</div>
+			<!-- 提交重置END -->
+		</form>
+	</div>
+
+
+<!-- jquery文件 -->
+	<script src="../../../js/comm/jquery.min.js"></script>
+	<script src="../../../js/comm/swiper-3.3.1.jquery.min.js"></script>
+	<script src="../../../ctrl/layer/layer.js"></script>
+<!-- base的js文件 -->
+	<script src="../../../js/comm/mining.js"></script>
+	<script src="../../../js/comm/user.js"></script>
+</body>
+</html>
